@@ -1,0 +1,27 @@
+body {
+  background-color: azure;
+}
+
+.container {
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 10%;
+  padding: 10px;
+  height: 850px;
+  width: 850px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.grid {
+  float: left;
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+}
+
+/* display: inline-block; */
