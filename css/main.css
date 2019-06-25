@@ -1,27 +1,33 @@
 body {
-  background-color: azure;
+  background-color: lightgray;
+  text-align: left;
+  font-family: "Love Ya Like A Sister", cursive;
+}
+
+h1 {
+  color: black;
 }
 
 .container {
-  background-color: red;
   border: 1px solid black;
-  border-radius: 10%;
-  padding: 10px;
-  height: 850px;
-  width: 850px;
+  border-radius: 3%;
+  background-color: lightblue;
+  padding: 45px;
+  height: 800px;
+  max-width: 700px;
   margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
 
 .grid {
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
   float: left;
-  width: 500px;
+  width: 700px;
   margin: 0 auto;
   background-color: white;
   height: 40px;
   width: 40px;
   border: 1px solid black;
 }
-
-/* display: inline-block; */
