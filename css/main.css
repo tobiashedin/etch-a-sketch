@@ -12,9 +12,9 @@ h1 {
   border: 1px solid black;
   border-radius: 3%;
   background-color: lightblue;
-  padding: 45px;
-  height: 960px;
-  width: 960px;
+  padding: 20px;
+  height: 800px;
+  width: 800px;
   margin: auto;
   margin-top: 50px;
   font-size: 24px;
@@ -25,6 +25,5 @@ h1 {
   display: inline-block;
   margin: 0;
   padding: 0;
-  border: 5px solid red;
-  outline: 2px solid blue;
+  outline: 1px solid black;
 }
