@@ -8,27 +8,23 @@ h1 {
   color: black;
 }
 
-.container {
+#gridContainer {
   border: 1px solid black;
   border-radius: 3%;
   background-color: lightblue;
   padding: 45px;
-  height: 650px;
-  max-width: 700px;
-  margin: 0 auto;
+  height: 960px;
+  width: 960px;
+  margin: auto;
   margin-top: 50px;
   font-size: 24px;
 }
 
 .grid {
-  justify-content: center;
-  display: flex;
-  flex-wrap: nowrap;
-  float: left;
-  width: 700px;
-  margin: 0 auto;
   background-color: white;
-  height: 30px;
-  width: 30px;
-  border: 1px solid black;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 5px solid red;
+  outline: 2px solid blue;
 }
