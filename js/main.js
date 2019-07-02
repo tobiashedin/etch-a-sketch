@@ -8,8 +8,8 @@ function createGrid(x) {
       $("#gridContainer").append("<div class='grid'></div>");
     }
   }
-  $(".grid").width(650 / x);
-  $(".grid").height(650 / x);
+  $(".grid").width(800 / x);
+  $(".grid").height(800 / x);
 }
 
 /*
