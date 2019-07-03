@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background-color: lightgrey;
   text-align: center;
   font-size: 24px;
   font-family: "Love Ya Like A Sister", cursive;
@@ -9,22 +9,18 @@ h1 {
   color: black;
 }
 
-#gridContainer {
+#container {
+  display: grid;
   border: 1px solid black;
   border-radius: 3%;
-  background-color: lightcoral;
-  padding: 20px;
+  background-color: rgb(219, 67, 67);
+  padding: 25px;
   height: 800px;
   width: 800px;
   margin: auto;
-  margin-top: 50px;
 }
 
-.grid {
-  margin: 0;
-  padding: 0;
-  border: none;
+.grid-div {
   background-color: white;
-  display: inline-block;
   outline: 1px solid black;
 }
