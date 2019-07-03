@@ -1,5 +1,5 @@
 body {
-  background-color: lightgrey;
+  background-color: lightgray;
   font-family: "Love Ya Like A Sister", cursive;
   font-size: 24px;
 }
@@ -7,21 +7,24 @@ body {
 h1 {
   color: black;
   text-align: center;
+  padding: 50px 0px 0px 0px;
+  margin: 1px;
 }
 
 .buttons {
   text-align: center;
+  padding: 10px;
 }
 
 #container {
   display: flex;
   flex-wrap: wrap;
   border: 1px solid black;
-  border-radius: 3%;
+  border-radius: 2%;
   background-color: rgb(219, 67, 67);
-  padding: 40px;
-  height: 800px;
-  width: 800px;
+  padding: 30px;
+  height: 600px;
+  width: 600px;
   margin: auto;
 }
 
